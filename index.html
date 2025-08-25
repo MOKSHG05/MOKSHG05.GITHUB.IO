@@ -3,10 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moksh Gandhi Portfolio</title>
+  <title>Moksh Gandhi | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-  <h1>Welcome to My Portfolio 🚀</h1>
-  <p>This will showcase my TPJ projects and more soon!</p>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Moksh Gandhi</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header class="bg-primary text-white text-center py-5">
+  <div class="container">
+    <h1 class="display-4">Hi, I'm Moksh Gandhi</h1>
+    <p class="lead">Electromechanical Engineering Student | Project Enthusiast</p>
+    <a href="#projects" class="btn btn-light btn-lg mt-3">View My Work</a>
+  </div>
+</header>
+
+<!-- About -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-4">
+        <img src="https://via.placeholder.com/300" class="img-fluid rounded-circle" alt="Profile photo">
+      </div>
+      <div class="col-md-8">
+        <h2>About Me</h2>
+        <p>I’m an Electromechanical Engineering student at Seneca Polytechnic, graduating in August 2025. 
+           Passionate about automation, robotics, and control systems, I’ve worked on projects involving PLCs, 
+           robotics, and industrial automation. This portfolio showcases my academic and technical work.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Projects</h2>
+    <div class="row g-4">
+      <!-- Project Card -->
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">TPJ Capstone Project</h5>
+            <p class="card-text">Automated Pallet Storage & Retrieval System with Node-RED interface and stepper motor control.</p>
+            <a href="#" class="btn btn-primary">View More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Add more projects -->
+    </div>
+  </div>
+</section>
+
+<!-- Resume -->
+<section id="resume" class="py-5 text-center">
+  <div class="container">
+    <h2>Resume</h2>
+    <p>You can download my resume here:</p>
+    <a href="resume.pdf" class="btn btn-outline-dark btn-lg" download>Download Resume</a>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="bg-dark text-white py-5">
+  <div class="container text-center">
+    <h2>Contact Me</h2>
+    <p>📧 Email: <a href="mailto:moksh.gandhi@email.com" class="text-white">moksh.gandhi@email.com</a></p>
+    <p>💼 LinkedIn: <a href="https://linkedin.com/in/mokshgandhi" class="text-white">linkedin.com/in/mokshgandhi</a></p>
+    <p>🔗 GitHub: <a href="https://github.com/mokshg05" class="text-white">github.com/mokshg05</a></p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-secondary text-white text-center py-3">
+  <p class="mb-0">&copy; 2025 Moksh Gandhi | Portfolio</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
